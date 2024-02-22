@@ -14,7 +14,7 @@ void selection_sort(int *array, size_t size)
 	size_t i, strp, min_idx;
 	int tmp;
 
-	for (step =0; step < size - 1; step++)
+	for (step = 0; step < size - 1; step++)
 	{
 		min_idx = step;
 		for (i = step + 1; i < size; i++)
