@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * buble_sort - Sorts an array of intergers in ascending order
+ * bubble_sort - Sorts an array of integers in ascending order
  *
  * @array: The array of integer
  * @size: The size of the array
@@ -19,7 +19,7 @@ void bubble_sort(int *array, size_t size)
 
 	do {
 		sorted = 1;
-		for (i = 0; i < size - 1; i++)
+		for (i = 0; i <size - 1; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
