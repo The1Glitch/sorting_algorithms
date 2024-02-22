@@ -3,15 +3,15 @@
 
 
 /**
- * selection_sort - Sorts an array of integers in ascending order
- * @array: the array
- * @size: Size of the array
+ * selection_sort - Sorts an array of integers in asceding order
+ * @array: The array
+ * @size: The size of the array
  *
  * Return: Void
  */
 void selection_sort(int *array, size_t size)
 {
-	size_t i, strp, min_idx;
+	size_t i, step, min_idx;
 	int tmp;
 
 	for (step = 0; step < size - 1; step++)
